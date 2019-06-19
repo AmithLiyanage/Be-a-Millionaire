@@ -1,31 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { Question1Component } from './question1/question1.component';
-import { Question2Component } from './question2/question2.component';
-import { Question3Component } from './question3/question3.component';
-import { Question4Component } from './question4/question4.component';
-import { Question5Component } from './question5/question5.component';
-import { MainViewComponent } from './main-view/main-view.component';
-import { StartComponent } from './start/start.component';
-import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Question1Component,
-    Question2Component,
-    Question3Component,
-    Question4Component,
-    Question5Component,
-    MainViewComponent,
-    StartComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule,
     AppRoutingModule
   ],
   providers: [],
