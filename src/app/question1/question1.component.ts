@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Question1Component implements OnInit {
 
+  correctAnswer = false;
+
   constructor() { }
+
+  clickCorrectAnswer() {
+    this.correctAnswer = true;
+  }
 
   ngOnInit() {
   }

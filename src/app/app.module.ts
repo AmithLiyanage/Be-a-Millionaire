@@ -9,6 +9,8 @@ import { Question4Component } from './question4/question4.component';
 import { Question5Component } from './question5/question5.component';
 import { MainViewComponent } from './main-view/main-view.component';
 import { StartComponent } from './start/start.component';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { StartComponent } from './start/start.component';
     StartComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
